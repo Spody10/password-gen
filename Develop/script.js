@@ -6,6 +6,10 @@ var charactersLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 var charactersSpec = ["!", ")", "@", "(", "#", "*", "$", "&", "%", "^", "+", "/", "-", "?", ">", "<", ":", "{", "}"];
 var charactersNum = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
+const CHARACTERS = 'abcdefghijklmnopqrstuvwxyz'
+
+const uppercaseCharacters = CHARACTERS.split().map((character) => character.toUppercase())
+
 // Variable confirmation
 var confirmCharLength = "";
 var confirmCharNumb;
