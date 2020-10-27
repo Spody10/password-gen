@@ -4,6 +4,6 @@
 
 ### Work in progress, will update later.
 
-!(screenshot-password-gen.png)
+![](/screenshot-password-gen.png)
 
 https://spody10.github.io/password-gen/
